@@ -12,8 +12,8 @@ notepad $PROFILE
 ```
 2. Add these lines:
 ```powershell
-Set-Alias g5 "cd C:\path\to\sprint-5"
-Set-Alias acp "python C:\path\to\sprint-5\add-commit-push.py"
+Set-Alias g5 "cd C:\path\to\your\project"
+Set-Alias acp "python C:\path\to\your\project\add-commit-push.py"
 ```
 Now you can do:
 ```powershell
@@ -28,8 +28,8 @@ nano ~/.zshrc   # or ~/.bashrc
 ```
 2. Add:
 ```bash
-alias g5='cd ~/path/to/sprint-5'
-alias acp='python3 ~/path/to/sprint-5/add-commit-push.py'
+alias g5='cd ~/path/to/your/project'
+alias acp='python3 ~/path/to/your/project/add-commit-push.py'
 ```
 3. Save and reload:
 ```bash
