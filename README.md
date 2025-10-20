@@ -1,1 +1,47 @@
-# add-commit-push
+### Git Automation Script
+
+This project includes a Python script (`add-commit-push.py`) that automates Git operations.
+
+#### Aliases
+
+**Windows PowerShell**
+
+1. Open PowerShell profile file:
+```powershell
+notepad $PROFILE
+```
+2. Add these lines:
+```powershell
+Set-Alias g5 "cd C:\path\to\sprint-5"
+Set-Alias acp "python C:\path\to\sprint-5\add-commit-push.py"
+```
+Now you can do:
+```powershell
+g5
+acp -m "Updated code"
+```
+**MacOS Terminal**
+
+1. Open your shell config file:
+```bash
+nano ~/.zshrc   # or ~/.bashrc
+```
+2. Add:
+```bash
+alias g5='cd ~/path/to/sprint-5'
+alias acp='python3 ~/path/to/sprint-5/add-commit-push.py'
+```
+3. Save and reload:
+```bash
+source ~/.zshrc
+```
+Now you can do:
+```bash
+g5
+acp -m "Updated code" -f
+```
+Credits:
+
+By: Patrick O'Connor
+
+Credits: ChatGPT for code and Eric Pogue for the idea and requirements
