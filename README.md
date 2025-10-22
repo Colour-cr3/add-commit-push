@@ -16,13 +16,24 @@ notepad $PROFILE
 ```
 3. Add these lines to the .ps1 file:
 ```powershell
-Set-Alias (something to represent your project directory) "cd C:\path\to\your\project"
-Set-Alias acp "python C:\path\to\your\project\add-commit-push.py"
+function g5 {
+    Set-Location "C:\Path\to\your\project"
+}
+
+function acp {
+    python3 "C:\Path\to\your\project\add-commit-push.py" @args
+}
+
 ```
 Now you can do:
 ```powershell
 (something to represent your project directory)
 acp -m "Updated code"
+```
+
+*Note If you get an error "Updates were rejected because the tip of your current branch is behind its remote counterpart" run*:
+```powershell
+git pull
 ```
 **MacOS Terminal**
 
