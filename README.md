@@ -21,7 +21,7 @@ Set-Alias acp "python C:\path\to\your\project\add-commit-push.py"
 ```
 Now you can do:
 ```powershell
-g5
+(something to represent your project directory)
 acp -m "Updated code"
 ```
 **MacOS Terminal**
@@ -32,7 +32,7 @@ nano ~/.zshrc   # or ~/.bashrc
 ```
 2. Add:
 ```bash
-alias g5='cd ~/path/to/your/project'
+alias (something to represent your project directory)='cd ~/path/to/your/project'
 alias acp='python3 ~/path/to/your/project/add-commit-push.py'
 ```
 3. Save and reload:
@@ -41,7 +41,7 @@ source ~/.zshrc
 ```
 Now you can do:
 ```bash
-g5
+(something to represent your project directory)
 acp -m "Updated code" -f
 ```
 Credits:
