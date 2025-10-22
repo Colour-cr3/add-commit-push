@@ -6,11 +6,15 @@ This project includes a Python script (`add-commit-push.py`) that automates Git 
 
 **Windows PowerShell**
 
-1. Open PowerShell profile file:
+1. Create a PowerShell profile file (if necessary):
+```powershell
+New-Item -Path $PROFILE -ItemType File -Force
+```
+3. Open PowerShell profile file:
 ```powershell
 notepad $PROFILE
 ```
-2. Add these lines:
+3. Add these lines:
 ```powershell
 Set-Alias g5 "cd C:\path\to\your\project"
 Set-Alias acp "python C:\path\to\your\project\add-commit-push.py"
