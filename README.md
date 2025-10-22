@@ -16,7 +16,7 @@ notepad $PROFILE
 ```
 3. Add these lines to the .ps1 file:
 ```powershell
-Set-Alias g5 "cd C:\path\to\your\project"
+Set-Alias (something to represent your project directory) "cd C:\path\to\your\project"
 Set-Alias acp "python C:\path\to\your\project\add-commit-push.py"
 ```
 Now you can do:
