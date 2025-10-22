@@ -55,7 +55,6 @@ Now you can do:
 (something to represent your project directory)
 acp -m "Updated code" -f
 ```
-Credits:
 
 By: Patrick O'Connor
 
