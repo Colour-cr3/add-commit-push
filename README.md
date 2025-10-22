@@ -10,7 +10,7 @@ This project includes a Python script (`add-commit-push.py`) that automates Git 
 ```powershell
 New-Item -Path $PROFILE -ItemType File -Force
 ```
-3. Open PowerShell profile file:
+2. Open PowerShell profile file:
 ```powershell
 notepad $PROFILE
 ```
