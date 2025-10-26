@@ -6,6 +6,7 @@ This project includes a Python script (`add-commit-push.py`) that automates Git 
 
 **Windows PowerShell**
 
+[Windows Installation Instruction Video](https://drive.google.com/file/d/1ZO6-TXmpMDEYcIZu30MidsfkfVkrUWTF/view?usp=sharing)
 1. Create a PowerShell profile file (if necessary):
 ```powershell
 New-Item -Path $PROFILE -ItemType File -Force
